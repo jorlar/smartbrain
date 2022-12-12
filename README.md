@@ -1,5 +1,8 @@
-# SmartBrain - v1
-Final project for ZTM course
+# SmartBrain - v2.0
+Final project for my ZTM course
+
+This app is built along as I completed one of many ZTM-courses. 
+Feel free to reuse this code to build your own verision: 
 
 1. Clone this repo
 2. Run `npm install`
@@ -8,4 +11,4 @@ Final project for ZTM course
 
 You can grab Clarifai API key [here](https://www.clarifai.com/)
 
-*visist https://zerotomastery.io/ for more*
+
