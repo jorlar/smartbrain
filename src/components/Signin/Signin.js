@@ -1,5 +1,6 @@
 import React from 'react';
 
+// SignIn Class
 class Signin extends React.Component {
   constructor(props) {
     super(props);
@@ -17,6 +18,7 @@ class Signin extends React.Component {
     this.setState({signInPassword: event.target.value})
   }
 
+  // SignIn Event with fetch
   onSubmitSignIn = () => {
     fetch('http://localhost:3000/signin', {
       method: 'post',
