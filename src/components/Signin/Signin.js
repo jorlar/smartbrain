@@ -20,7 +20,7 @@ class Signin extends React.Component {
 
   // SignIn Event with fetch
   onSubmitSignIn = () => {
-    fetch('http://localhost:3000/signin', {
+    fetch('https://sea-lion-app-aeqvt.ondigitalocean.app/signin', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({

@@ -25,7 +25,7 @@ class Register extends React.Component {
 
   // Submit Signin
   onSubmitSignIn = () => {
-    fetch('http://localhost:3000/register', {
+    fetch('https://sea-lion-app-aeqvt.ondigitalocean.app/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
