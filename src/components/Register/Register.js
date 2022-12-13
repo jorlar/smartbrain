@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Register form
 class Register extends React.Component {
   constructor(props) {
     super(props);
@@ -22,6 +23,7 @@ class Register extends React.Component {
     this.setState({password: event.target.value})
   }
 
+  // Submit Signin
   onSubmitSignIn = () => {
     fetch('http://localhost:3000/register', {
       method: 'post',
